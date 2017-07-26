@@ -1,0 +1,16 @@
+{
+  "name": "a stack track my",
+  "manifest_version": 2,
+  "version": "0.1",
+  "background": {
+    "page": "background.html"
+  },
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Show unanswered question."
+  },
+  "permissions": ["https://api.stackexchange.com/"]
+
+}
